@@ -22,7 +22,7 @@ const users = [
 export default function SideBarItems() {
     return (
         <div className='flex flex-col'>
-            <div className="flex p-7 pl-8  font-bold text-xl bg-slate-900 border border-slate-500">
+            <div className="flex p-7 pl-8  font-bold text-xl bg-slate-900 border border-slate-500 rounded">
                 Personal
                 <div className="flex align-middle justify-end ml-48 rounded-full  hover:bg-slate-700">
                     <DropdownMenu>
@@ -39,10 +39,10 @@ export default function SideBarItems() {
                 </div>
 
             </div>
-            <div className="flex bg-slate-900 h-[89vh] w-full border border-slate-500">
+            <div className="flex bg-slate-900 h-[89vh] w-full border border-slate-500 rounded">
                 <div className="flex-1 overflow-y-auto ">
 
-                    <div className=" flex p-4 border-b rounded-lg transition duration-500 hover:bg-slate-800">
+                    <div className=" flex p-4 border-b rounded-lg transition duration-400 hover:bg-slate-800">
                         <Avatar>
                             <AvatarImage src="https://github.com/shadcn.png" />
                             <AvatarFallback>CN</AvatarFallback>
@@ -54,7 +54,7 @@ export default function SideBarItems() {
 
 
                     </div>
-                    <div className="flex p-4 border-b rounded-lg transition duration-500 hover:bg-slate-800">
+                    <div className="flex p-4 border-b rounded-lg transition duration-400 hover:bg-slate-800">
                         <Avatar>
                             <AvatarImage src="https://github.com/shadcn.png" />
                             <AvatarFallback>CN</AvatarFallback>
@@ -65,7 +65,7 @@ export default function SideBarItems() {
                         </div>
 
                     </div>
-                    <div className=" flex p-4 border-b rounded-lg transition duration-500 hover:bg-slate-800">
+                    <div className=" flex p-4 border-b rounded-lg transition duration-400 hover:bg-slate-800">
                         <Avatar>
                             <AvatarImage src="https://github.com/shadcn.png" />
                             <AvatarFallback>CN</AvatarFallback>
@@ -77,7 +77,7 @@ export default function SideBarItems() {
 
 
                     </div>
-                    <div className="flex p-4 border-b rounded-lg transition duration-500 hover:bg-slate-800">
+                    <div className="flex p-4 border-b rounded-lg transition duration-400 hover:bg-slate-800">
                         <Avatar>
                             <AvatarImage src="https://github.com/shadcn.png" />
                             <AvatarFallback>CN</AvatarFallback>
@@ -88,7 +88,7 @@ export default function SideBarItems() {
                         </div>
 
                     </div>
-                    <div className=" flex p-4 border-b rounded-lg transition duration-500 hover:bg-slate-800">
+                    <div className=" flex p-4 border-b rounded-lg transition duration-400 hover:bg-slate-800">
                         <Avatar>
                             <AvatarImage src="https://github.com/shadcn.png" />
                             <AvatarFallback>CN</AvatarFallback>
@@ -100,7 +100,7 @@ export default function SideBarItems() {
 
 
                     </div>
-                    <div className="flex p-4 border-b rounded-lg transition duration-500 hover:bg-slate-800">
+                    <div className="flex p-4 border-b rounded-lg transition duration-400 hover:bg-slate-800">
                         <Avatar>
                             <AvatarImage src="https://github.com/shadcn.png" />
                             <AvatarFallback>CN</AvatarFallback>
